@@ -1,5 +1,6 @@
 class Star_Cinema:
     hall_list = []
 
-    def entry_hall(self, hall):
-        self.hall_list.append(hall)
+    @classmethod
+    def entry_hall(cls, hall):
+        cls._hall_list.append(hall)
