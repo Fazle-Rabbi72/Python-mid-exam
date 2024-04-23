@@ -1,4 +1,4 @@
 def view_show_list(self):
         print("Show List:")
-        for show in self.show_list:
-            print(f"Show ID: {show[0]}, Movie: {show[1]}, Time: {show[2]}")
+        for show_info in self.show_list:
+            print(f"ID: {show_info[0]}, Movie: {show_info[1]}, Time: {show_info[2]}")
